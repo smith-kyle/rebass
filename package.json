@@ -4,7 +4,7 @@
   "description": "Functional React UI component library, built with styled-components",
   "main": "dist/index.js",
   "scripts": {
-    "prepublish": "babel src -d dist",
+    "postinstall": "babel src -d dist",
     "start": "start-storybook -p 8000 -c stories",
     "storybook": "build-storybook -c stories -o docs/stories",
     "cover": "nyc report --reporter=html --reporter=lcov && codecov",
