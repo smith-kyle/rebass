@@ -23,6 +23,7 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "dependencies": {
+    "babel-cli": "^6.26.0",
     "grid-styled": "http://github.com/smith-kyle/grid-styled.git#7a44065317a51dc32acbc4ad827e91258bcbb573",
     "palx": "^1.0.2",
     "prop-types": "^15.5.10",
